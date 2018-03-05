@@ -153,7 +153,7 @@ body{
 	margin-left: 0;
 }
 #navbar .akun_drop .logout{
-	background-color: #1d2837;
+	background-color: #1D3720;
 }
 #navbar .akun_drop .button_in_drop a{
 	text-decoration: none;
@@ -241,7 +241,7 @@ body{
 	height: auto;
 	background-color: white;
 	padding: 10px;
-	margin: 10px;
+	margin: 10px 0;
 	float: right;
 	/*box-shadow: 0 1px 3px grey;*/
 }
@@ -265,7 +265,7 @@ body{
 }
 #content .judul{
 	margin-top: 10px;
-	font-size: 14pt;
+	font-size: 15pt;
 	text-align: left;
 
 }
@@ -290,8 +290,11 @@ body{
 #content .deskripsi{
 	margin-top: 10px;
 	margin-bottom: 10px;
+	margin-left: 30px;
 	width: 90%;
 	text-align: left;
+	line-height: 1.5;
+	font-size: 13pt;
 }
 .mymodal-text{
 	text-align: left;
@@ -395,9 +398,30 @@ body{
 	}
 	.responsive_menu .sidebar_menu .logout:hover{
 		/*box-shadow: 0 3px 5px grey*/
+		background-color: #416A46;
 	}
 	.responsive_menu .sidebar_menu .logout a:hover{
 		color: white;
+	}
+	.responsive_menu .sidebar_menu .box_kelas{
+		margin-top: 50px;
+		padding: 0;
+	}
+	.responsive_menu .sidebar_menu .kelas{
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+		display: block;
+		margin-right: 0;
+		margin-left: 0;
+		background-color: #1D3720;
+		font-size: 12pt;
+		text-decoration: none;
+		color: white;
+	}
+	.responsive_menu .sidebar_menu .kelas:hover{
+		color: white;
+		background-color: #416A46;
 	}
 	.responsive_upgrade{
 		background-color: #ff9800;
