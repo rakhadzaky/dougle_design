@@ -151,28 +151,23 @@ body{
 	display: block;
 	margin-right: 0;
 	margin-left: 0;
+	text-decoration: none;
+	color: black;
 }
 #navbar .akun_drop .logout{
 	background-color: #1D3720;
+	text-decoration: none;
+	color: white;
 }
 #navbar .akun_drop .button_in_drop a{
 	text-decoration: none;
 	color: black;
 }
-#navbar .akun_drop .logout a{
-	text-decoration: none;
-	color: white;
-}
 #navbar .akun_drop .button_in_drop:hover{
 	cursor: pointer;
-}
-#navbar .akun_drop .button_in_drop a:hover{
 	color: #5886a6;
 }
 #navbar .akun_drop .logout:hover{
-	/*box-shadow: 0 3px 5px grey*/
-}
-#navbar .akun_drop .logout a:hover{
 	color: white;
 }
 .responsive_menu{
@@ -180,6 +175,9 @@ body{
 }
 #space{
 	margin-top: 50px;
+}
+#main-section{
+	min-height: 550px;
 }
 #menu {
 	width: 100%;
@@ -208,14 +206,8 @@ body{
 	border-bottom: 3px solid #1d2837;
 	/*5886a6*/
 }
-#menu li a:hover:not(.active){
-	/*box-shadow: 0px 1px 3px grey;*/
-}
 #menu ul .hide{
 	display: none;
-}
-#menu ul .btn:focus, .btn:hover{
-	/*box-shadow: 0px 3px 10px grey;*/
 }
 #menu ul .dropdown{
 	display: block;
@@ -243,6 +235,7 @@ body{
 	padding: 10px;
 	margin: 10px 0;
 	float: right;
+	min-height: 100%;
 	/*box-shadow: 0 1px 3px grey;*/
 }
 #content .section{
@@ -299,15 +292,18 @@ body{
 .mymodal-text{
 	text-align: left;
 }
+.clear{
+	clear: both;
+}
 #footer{
 	width: 100%;
 	height: auto;
 	background-color: white;
 	/*box-shadow: 0 -1px 3px grey;*/
-	bottom: -1;
+	bottom: 0;
 	text-align: center;
 	margin-top: 50px;
-	position: absolute;
+	/*position: absolute;*/
 }
 #footer .text{
 	padding: 10px 0;
